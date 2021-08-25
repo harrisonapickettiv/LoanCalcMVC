@@ -8,10 +8,10 @@ namespace LoanCalcMVC.Models
   public class LoanPayment
   {
     public int Month { get; set; }
-    public decimal Payment { get; set; }
-    public decimal MonthlyPrincipal { get; set; }
-    public decimal MonthlyInterest { get; set; }
-    public decimal TotalInterest { get; set; }
-    public decimal Balance { get; set; }
+    public double Payment { get; set; }
+    public double MonthlyPrincipal { get; set; }
+    public double MonthlyInterest { get; set; }
+    public double TotalInterest { get; set; }
+    public double Balance { get; set; }
   }
 }

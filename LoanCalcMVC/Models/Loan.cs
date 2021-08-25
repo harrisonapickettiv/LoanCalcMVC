@@ -7,12 +7,12 @@ namespace LoanCalcMVC.Models
 {
   public class Loan
   {
-    public decimal Amount { get; set; }
-    public decimal Rate { get; set; }
+    public double Amount { get; set; }
+    public double Rate { get; set; }
     public int Term { get; set; }
-    public decimal Payment { get; set; }
-    public decimal TotalInterest { get; set; }
-    public decimal TotalCost { get; set; }
+    public double Payment { get; set; }
+    public double TotalInterest { get; set; }
+    public double TotalCost { get; set; }
     public List<LoanPayment> Payments { get; set; } = new List<LoanPayment>();
   }
 }
